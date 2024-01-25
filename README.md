@@ -19,8 +19,6 @@ Before you start, make sure you have the following:
 ## Getting Started
 
 1. Clone the repository:
-
-```bash
 git clone https://github.com/your-username/weather-dashboard.git
 Open the project folder:
 bash
@@ -47,5 +45,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 Acknowledgments
 OpenWeatherMap for providing the weather data API.
-Contact
-If you have any questions or suggestions, feel free to contact me at your.email@example.com.
+
