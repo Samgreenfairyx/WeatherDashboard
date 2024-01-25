@@ -19,21 +19,37 @@ Before you start, make sure you have the following:
 ## Getting Started
 
 1. Clone the repository:
+   
 git clone https://github.com/your-username/weather-dashboard.git
+
 Open the project folder:
+
 bash
+
 Copy code
+
 cd weather-dashboard
+
 Replace the placeholder API key in script.js with your OpenWeatherMap API key.
+
 javascript
+
 Copy code
+
 const apiKey = 'YOUR_OPENWEATHERMAP_API_KEY';
+
 Open index.html in your web browser.
+
 Usage
+
 Enter a city name in the search box and click "Search" or press Enter.
+
 View the current weather information and the five-day forecast.
+
 Click on a city in the search history to retrieve weather information.
+
 Contributing
+
 If you would like to contribute to this project, feel free to open issues or submit pull requests.
 
 ## Screenshot
