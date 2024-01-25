@@ -1,0 +1,135 @@
+/* Header styling */
+#header {
+    background: linear-gradient(to right, #87CEEB, #000080); 
+    background-size: cover;
+    background-position-y: 40%;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Header text styling */
+#header h1 {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Jumbotron padding and border */
+.jumbotron {
+    padding: 1rem;
+    border-radius: 0;
+}
+
+/* City Search width */
+#search-city {
+    width: 80%;
+}
+
+/* Label style for city search */
+label[for="search-city"] {
+    font-size: 32px; 
+}
+
+/* Current weather padding */
+#current-weather {
+    padding-left: 15px;
+}
+
+/* Clear storage below list of cities */
+#clear-storage {
+    color: grey;
+    text-decoration: none;
+    font-size: .75em;
+    margin: .5em 0em 0em .5em;
+}
+
+/* Weather card container styling */
+#five-day-forecast {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px; 
+    overflow-x: auto;
+}
+
+/* Weather card styling */
+.weather-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 14rem; 
+    height: 15rem; 
+    background-color: #0275d8;
+    color: white;
+    text-align: center;
+    margin-right: 100px; 
+}
+
+.weather-card p:first-child {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.large-date {
+    font-size: 20px; 
+    font-weight: bold; 
+}
+
+/* Style for the Five Day Forecast header */
+#content-right h2.mt-5 {
+    text-align: left;
+    text-indent: 30px;
+    margin-top: 10px;
+    color: #333; 
+}
+
+/* UV coloring scheme for UV display */
+.uv-favorable, .uv-moderate, .uv-severe {
+    border-radius: 5px;
+    color: white;
+}
+
+.uv-favorable { background-color: green; } /* UV index favorable color */
+.uv-moderate { background-color: orange; } /* UV index moderate color */
+.uv-severe { background-color: red; } /* UV index severe color */
+
+/* Media queries for responsive design */
+@media only screen and (max-width: 992px) {
+    #search-city, #search-button {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    #fiveDayForecastUl {
+        justify-content: center;
+    }
+}
+
+/* List of prior searched cities */
+#city-results .list-group-item {
+    cursor: pointer;
+    border: 1px solid #0275d8;
+    color: rgb(0, 0, 0); 
+    background-color: rgb(189, 184, 184);
+    margin-bottom: 5px;
+    transition: color 0.3s;
+}
+
+#city-results .list-group-item:hover {
+    background-color: #0275d8;
+    color: white;
+}
+
+/* Styling for the previous search buttons */
+#city-results .list-group-item.btn-previous-search {
+    color: black;
+    background-color: grey;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#city-results .list-group-item.btn-previous-search:hover {
+    background-color: grey;
+    color: white;
+}
